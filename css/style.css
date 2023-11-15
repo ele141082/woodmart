@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.row {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 5rem;
+    
+}
+
+.col-33 {
+    width: 33.3%;
+    margin: 0 auto;
+}
+
+.audio {
+    color: #28C0F1;
+    font-size: 40px;
+}
+
+.title {
+    margin-top: 3rem;
+    font-size: 40px;
+}
+
+.second-title {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.title-svg {
+    margin-left: 1rem;
+}
+
+.p-svg {
+    margin-top: 1rem;
+}
+
+.button-view {
+    color: white;
+    background-color: #28C0F1;
+    border-radius: 35px;
+    margin-top: 2rem;
+    padding: 15px 21px;
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+}
